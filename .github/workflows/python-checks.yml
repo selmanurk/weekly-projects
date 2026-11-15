@@ -18,3 +18,5 @@ jobs:
         run: python3 projects/2026-11-01-prompt-risk-scanner/test_prompt_risk_scanner.py
       - name: Run LLM PII Redactor tests
         run: python3 projects/2026-11-08-llm-pii-redactor/test_pii_redactor.py
+      - name: Run LLM Contract Validator tests
+        run: python3 projects/2026-11-15-llm-contract-validator/test_llm_contract_validator.py
