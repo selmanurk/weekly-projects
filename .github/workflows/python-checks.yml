@@ -20,3 +20,5 @@ jobs:
         run: python3 projects/2026-11-08-llm-pii-redactor/test_pii_redactor.py
       - name: Run LLM Contract Validator tests
         run: python3 projects/2026-11-15-llm-contract-validator/test_llm_contract_validator.py
+      - name: Run LLM Eval Diff tests
+        run: python3 projects/2026-11-23-llm-eval-diff/test_llm_eval_diff.py
